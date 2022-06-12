@@ -6,4 +6,4 @@ KAFKA_HOST = "150.254.78.69:29092"
 client = KafkaClient(hosts = KAFKA_HOST)
 topic = client.topics["s424343"]
 
-cprint(lient.topics.values())
+print(client.topics.values())
